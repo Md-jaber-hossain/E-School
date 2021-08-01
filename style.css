@@ -1,0 +1,118 @@
+.e-school-button{
+    width: 104px;
+    height: 43px;
+    border: none;
+    border-radius: 30px;
+    background-color: #21B573;
+    color: white;
+}
+.header-bg{
+    background-color: #F0FFF0;
+}
+.banner-height{
+    height: 450px;
+}
+.banner h6{
+    color: #FD511A;
+}
+.banner p{
+    color: gray;
+}
+.banner-text-color{
+    color: #21B573;
+}
+.main-top-shadow{
+    width: 270px;
+    height: 270px;
+    box-shadow: 2px 5px 40px 1px rgb(230, 224, 224);
+    border-radius: 15px;
+}
+.course-width{
+    width: 370px;
+    box-shadow: 2px 5px 40px 1px rgb(230, 224, 224);
+    border-radius: 15px;
+}
+.course-img-padding{
+    padding: 17px;
+}
+.course-text-padding{
+    padding: 0px 20px;
+}
+.course-margin{
+    margin-top: 100px;
+}
+.testimonial-margin{
+    margin-top: 70px;
+    margin-bottom: 120px;
+}
+.footer-bg{
+    background-color: #282531;
+    color: white;
+}
+.footer-margin{
+    margin-bottom: 30px;
+}
+.testimonial-image-center{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+/*---------------
+    Media queries 
+----------------*/
+
+/* Mobile devices */
+@media only screen and (max-width:688px){
+    .banner img{
+        width: 80%;
+    }
+    .course-p{
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+    }
+    .testimonial-image-center{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    .main-top-margin{
+        margin-bottom: 20px;
+    }
+}
+
+/* Tablet Device */
+@media only screen and (min-width: 689px ) and (max-width: 992px ) {
+    .banner img{
+        width: 50%;
+    }
+    .course-width{
+        width: 360px;
+        box-shadow: 2px 5px 40px 1px rgb(230, 224, 224);
+        border-radius: 15px;
+    }
+    .course-p{
+        display: flex;
+    }
+    .course-img-padding{
+        padding: 10px;
+    }
+    .course-text-padding{
+        padding: 0px 10px;
+    }
+    .testimonial-image-center{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    .main-top-margin{
+        margin-bottom: 20px;
+    }
+}
+
+/* Computer */
+@media only screen and (min-width: 993px ) and (max-width: 1312px ) {
+    
+}
